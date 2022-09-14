@@ -1,0 +1,1165 @@
+*
+		{
+			box-sizing: border-box;
+		}
+		
+		body
+		{
+			margin: 0;
+		}
+		.header
+		{
+			height: auto;
+			width: 100%;
+			background: black;
+			text-align: center;
+			line-height: 50px;
+			color: white;
+			display: flex;
+			flex-wrap: wrap;
+
+
+		}
+		.header .blank
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+
+
+		}
+		.header .signIn
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+			/*word-spacing: 5px;
+			letter-spacing: 5px;*/
+			border-right: 1px solid gray;
+
+		}
+		.header .signUp
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+			border-right: 1px solid gray;
+
+		}
+		.header .call
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+			border-right: 1px solid gray;
+
+		}
+		.header .info
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+			border-right: 1px solid gray;
+
+		}
+		.header .chk
+		{
+			height: 50px;
+			width: 16.66%;
+			background: ;
+
+		}
+		/*//=========================================================================================*/
+
+		.Subheader
+		{
+			height: auto;
+			width: 100%;
+			display: flex;
+			text-align: center;
+			line-height: 150px;
+			flex-wrap: wrap;
+		}
+		.Subheader .search
+		{
+			height: 150px;
+			width: 33.33%;
+			background: ;
+			
+		}
+		.Subheader input[type="text"]
+		{
+			height: 50px;
+			width: 70%;
+			border: 1px solid lightgray;
+			font-size: 20px;
+
+			
+			
+		}
+		.Subheader input[type="text"]:focus
+		{
+			outline: none;
+		}
+		.Subheader button[type="submit"]
+		{
+			height: 55px;
+			padding: 11px;
+			font-size: 26px;
+
+			background: #2fdab8;
+			border: none;
+			color: white;
+		}
+
+		.Subheader .logo
+		{
+			height: 150px;
+			width: 33.33%;
+			font-size: 60px;
+			position: relative;
+
+			
+
+		}
+		.fa-shopping-bag
+		{
+			position: absolute;
+			top: 102px;
+			font-size: 21px;
+			right: 77px;
+			color: #2fdab8;
+		
+		}
+		.Subheader .social
+		{
+			height: 150px;
+			width: 33.33%;
+			font-size: 20px;
+			background: ;
+
+		}
+
+		.fa-facebook
+		{
+			background: #3b5998;
+			padding: 12px;
+			color: white;
+
+
+		}
+		.fa-twitter
+		{
+			background: #55acee;
+			padding: 12px;
+			color: white;
+		}
+		.fa-pinterest
+		{
+			background: #bd081c;
+			padding: 12px;
+			color: white;
+		}
+		.fa-youtube
+		{
+			background: #cd201f;
+			padding: 12px;
+			color: white;
+		}
+		.fa-instagram
+		{
+			background: #3f729b;
+			padding: 12px;
+			color: white;
+		}
+		/*//================================================================================*/
+
+		.dropdown 
+		{
+            height: auto;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .home
+        {
+            height: 80px;
+            width: 74%;
+            background-color: transparent;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .home li
+        {
+            display: inline;
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-family: "Baloo 2";
+            color: white;
+            margin: 0 20px 0 20px;
+            position: relative;
+        }
+        .home li::after
+        {
+            content: "";
+            position: absolute;
+            top: 174%;
+            font-family: "Baloo 2";
+            left: 0px;
+            height: 5px;
+            width: 0px;
+            background-color: aqua;
+            transition: 0.5s;
+        }
+        .home li:hover::after
+        {
+            width: 100%;
+        }
+        .home .li1::after
+        {
+            content: "";
+            position: absolute;
+            top: 174%;
+            left: -2px;
+            height: 5px;
+            background-color: aqua;
+            width: 103%;
+        }
+        .home li a
+        {
+            text-decoration: none;
+            color: white;
+        }
+
+        .icon
+        {
+            height: 80px;
+            width: 18%;
+            background-color: aqua;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .icon i
+        {
+            background-color: rgba(180, 180, 180, 0.5);
+            height: 60px;
+            width: 25%;
+            font-size: 35px;
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .black
+        {
+            height: 80px;
+            width: 8%;
+            background-color: transparent;
+        }
+        /*//=======================================================================================================*/
+
+        .ex
+		{
+			height: auto;
+			width: 100%;
+			background: url(../images/inner1.jpg);
+			background-size: 100% 100%;
+			/*text-align: center;*/
+			flex-wrap: wrap;
+			
+
+		}
+		.ex .h1
+		{
+			text-align: center;
+			padding-top: 10px;
+			font-size: 20px;
+		}
+		.ex .h2
+		{
+			padding-top: 10px;
+			padding-left: 60px;
+		}
+		.ex .h2 ul li
+		{
+			display: inline;
+			color: white;
+
+
+		}
+		.ex .h2 ul li a
+		{
+			text-decoration: none;
+			color: red;
+
+		}
+		/*//================================================================================================================*/
+
+				.ex1
+		{
+			height: auto;
+			width: 100%;
+			background:white;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.ex1 .h3
+
+		{
+			height: 500px;
+			width: 50%;
+		}
+		.ex1 .h3 .h4
+		{
+			height: 370px;
+			width: 550px;
+			margin-top: 90px;
+			margin-left: 110px;
+
+
+		}
+		.ex1 .h5
+		{
+			height: 500px;
+			width: 50%;
+		}
+		.ex1 .h5 .h6
+		{
+			height: 370px;
+			width: 550px;
+			margin-top: 90px;
+			margin-left: 20px;
+			justify-content: space-around;
+			color: gray;
+			font-size: 18px;
+			font-family: 'Open Sans', sans-serif;
+			
+		}
+		/*//========================================================================================================*/
+
+	.center {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding: 75px 0px 0px 85px;
+  flex-wrap: wrap;
+}
+.center .img1 {
+  width: 45%;
+  height: 300px;
+  background: url(../images/bottom1.jpg);
+  background-size: 105% 100%;
+  background-origin: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.4);
+  margin-right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  transition: 0.5s;
+  position: relative;
+  background-position: -30px 0;
+}
+.center .img1:hover {
+  background-position: 0 0px;
+  transition: 0.5s;
+}
+.center .img1 p {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 32px;
+  font-family: "baloo 2";
+}
+.img1 .broder {
+  height: 220px;
+  width: 85%;
+  background: transparent;
+  border: 5px solid white;
+  background-position: -30px 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+.center .img1:hover.img1 .broder {
+  background-position: 0 0;
+  opacity: 100%;
+}
+.center .img2 {
+  width: 45%;
+  height: 300px;
+  background: url(../images/bottom2.jpg);
+  background-origin: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.4);
+  background-size: 105% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  background-position: -30px 0;
+  transition: 0.5s;
+}
+.center .img2:hover {
+  background-position: 0 0px;
+  transition: 0.5s;
+}
+.center .img2 p {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 32px;
+  font-family: "baloo 2";
+}
+.center span {
+  color: red;
+  font-weight: bold;
+}
+.center .img2 .broder1 {
+  height: 220px;
+  width: 85%;
+  background: transparent;
+  border: 5px solid white;
+  background-position: -30px 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+.center .img2:hover .broder1 {
+  background-position: 0 0;
+  opacity: 100%;
+}
+
+/*//=========================================================================================*/
+
+	.ex3
+		{
+			height: auto;
+			width: 100%;
+			background: #F9F9F9;
+			margin: auto;
+			flex-wrap: wrap;
+			
+		}
+		.ex3 .a1 
+		{
+			height: 90px;
+			width: 100%;
+			text-align: center;
+		}
+		.ex3 .a2 
+		{
+			height: auto;
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+
+
+		}
+		.ex3 .a2 .a3
+		{
+			height: 320px;
+			width: 20%;
+			margin-left: 80px;
+
+		}
+		.ex3 .a2 .a4
+		{
+			height: 320px;
+			width: 20%;
+		    margin-left: 30px;
+		}
+		
+		.ex3 .a2 .a5
+		{
+			height: 320px;
+			width: 20%;
+			 margin-left: 30px;
+		}
+		
+		.ex3 .a2 .a6
+		{
+			height: 320px;
+			width: 20%;
+			 margin-left: 30px;
+		}
+		/*//====================================================================================*/
+
+		.ex4
+		{
+			height: auto;
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 100px;
+		}
+		.ex4 .a7
+		{
+			height: 500px;
+			width: 50%;
+			background: ;
+		}
+		.ex4 .a8
+		{
+			height: 500px;
+			width: 50%;
+			background: red;
+		}
+		.ex4 .a8 .a9
+		{
+			height: 400px;
+			width: 650px;
+			background: white;
+			margin-top: 50px;
+			padding-top: 20px;
+			padding-left: 30px;
+			justify-content: space-around;
+
+		}
+		.ex4 .a8 .a9 .a10
+		{
+			display: flex;
+			padding-left: 10px;
+
+		}
+		.ex4 .a8 .a9 .a10 .a11
+		{
+			margin: auto;
+			text-align: center;
+		}
+
+		/*//=================================================================================*/
+
+
+		.text {
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  font-size: 45px;
+  font-family: "baloo 2";
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  flex-wrap: wrap;
+}
+.text span {
+  font-weight: bold;
+  padding-right: 10px;
+}
+.imgborder {
+  height: auto;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  padding: 25px 0 0 125px;
+  flex-wrap: wrap;
+}
+
+.imgborder .img1 {
+  height: 650px;
+  width: 36%;
+  background: url(../images/bb1.jpg);
+  background-size: 110% 100%;
+  /* background-repeat: no-repeat; */
+  background-origin: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+  transition: 0.5s;
+  background-position: -30px 0;
+}
+.imgborder .img1:hover {
+  background-position: 0px 0px;
+}
+.imgborder .img1::before {
+  content: "up to 50% off";
+  color: white;
+  position: absolute;
+  top: 5.5%;
+  left: 6%;
+  height: 550px;
+  width: 86%;
+  background: transparent;
+  border: 5px solid white;
+  opacity: 0;
+}
+.imgborder .img1:hover::before {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
+.imgborder .img1 p {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  font-family: "baloo 2";
+  color: white;
+  letter-spacing: 5px;
+  font-size: 26px;
+}
+
+.imgborder .img23 {
+  height: 650px;
+  width: 60%;
+  background-color: transparent;
+  padding: 0 0 0 35px;
+}
+.imgborder .img23 .img2 {
+  height: 315px;
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  background: url(../images/bottom3.jpg);
+  background-size: 104% 100%;
+  background-origin: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  position: relative;
+  transition: 0.5s;
+  background-position: -30px 0;
+}
+.imgborder .img23 .img2:hover {
+  background-position: 0 0;
+  transition: 0.5s;
+}
+.imgborder .img23 .img2::before {
+  content: "";
+  position: absolute;
+  top: 13%;
+  left: 4%;
+  height: 210px;
+  width: 90%;
+  background: transparent;
+  border: 5px solid white;
+  opacity: 0;
+}
+.img23 .img2:hover::before {
+  opacity: 100%;
+  transition: 0.5s;
+}
+.img2 p {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  letter-spacing: 5px;
+  font-size: 26px;
+  font-family: "baloo 2";
+  color: white;
+}
+.imgborder .img23 .img3 {
+  height: 315px;
+  width: 90%;
+  background: url(../images/bottom4.jpg);
+  background-size: 104% 100%;
+  background-origin: border-box;
+  border: 10px solid rgba(255, 255, 255, 0.4);
+  position: relative;
+  background-position: -30px 0;
+  transition: 0.5s;
+}
+.imgborder .img23 .img3:hover {
+  background-position: 0 0;
+  transition: 0.5s;
+}
+.imgborder .img23 .img3::before {
+  content: "";
+  position: absolute;
+  top: 13%;
+  left: 4%;
+  height: 210px;
+  width: 90%;
+  background-color: transparent;
+  border: 5px solid white;
+  opacity: 0;
+}
+.imgborder .img23 .img3:hover::before {
+  opacity: 100%;
+  transition: 0.5s;
+}
+.img3 p {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  letter-spacing: 5px;
+  font-size: 26px;
+  font-family: "baloo 2";
+  color: white;
+}
+.imgborder span {
+  color: red;
+  font-weight: bold;
+}
+
+/*//===============================================================================================*/
+		.ex7
+		{
+			height: auto;
+			width: 100%;
+			background: aqua;
+			margin-top: 50px;
+			flex-wrap: wrap;
+		}
+		.ex7 .d
+		{
+			height:auto;
+			width: 100%;
+			background: forestgreen;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.ex7 .d .d1
+		{
+			height: 320px;
+			width: 50%;
+			background: bisque;
+			position: relative;
+			
+		}
+		.ex7 .d .d2
+		{
+			height: 320px;
+			width: 50%;
+			background: pink;
+			position: relative;
+			
+		}
+		
+		.ex7 .f
+		{
+			height: 380px;
+			width: 100%;
+			background: url(../images/inner1.jpg);
+			background-size: 100% 100%;
+			background-attachment: fixed;
+			position: relative;
+
+		}
+		 .aa
+		{ 
+			position: absolute;
+			font-size: 55px;
+			color: white;
+			text-align: center;
+			padding-top: 50px;
+			padding-left: 280px;
+
+		}
+		 .ex7 .f .btn
+		{
+			position: absolute;
+			top: 60%;
+			left: 40%;
+			height: 45px;
+			width: 120px;
+			text-align: center;
+			padding-top: 5px;
+			background:red;
+			text-decoration: none;
+			color: white;
+		}
+		/*//=========================================================================*/
+
+.nav {
+  height: auto;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav1 {
+  height: 200px;
+  width: 25%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.nav1 .i1 {
+  height: 80px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  margin: 0 5% 0 5%;
+  font-size: 22px;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+.nav1 .i1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0px;
+  width: 0px;
+  background-color: aquamarine;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+}
+
+.nav1 .i1:hover::after {
+  height: 100px;
+  width: 100px;
+}
+.nav1 .navtext {
+  height: 100px;
+  width: 62%;
+  margin-top: 6%;
+  background-color: transparent;
+  font-family: "baloo 2";
+}
+
+.nav2 {
+  height: 200px;
+  width: 25%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.nav2 .i2 {
+  height: 80px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  margin: 0 5% 0 5%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.nav2 .i2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0px;
+  width: 0px;
+  background-color: aquamarine;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+}
+
+.nav2 .i2:hover::after {
+  height: 100px;
+  width: 100px;
+}
+.nav2 .navtext {
+  height: 100px;
+  width: 62%;
+  margin-top: 6%;
+  background-color: transparent;
+  font-family: "baloo 2";
+}
+
+.nav3 {
+  height: 200px;
+  width: 25%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.nav3 .i3 {
+  height: 80px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  margin: 0 5% 0 5%;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.nav3 .i3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0px;
+  width: 0px;
+  background-color: aquamarine;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+}
+
+.nav3 .i3:hover::after {
+  height: 100px;
+  width: 100px;
+}
+.nav3 .navtext {
+  height: 100px;
+  width: 62%;
+  margin-top: 6%;
+  background-color: transparent;
+  font-family: "baloo 2";
+}
+
+.nav4 {
+  height: 200px;
+  width: 25%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.nav4 .i4 {
+  height: 80px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  margin: 0 5% 0 5%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.nav4 .i4::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 0px;
+  width: 0px;
+  background-color: aquamarine;
+  transition: 0.1s;
+  transform: translate(-50%, -50%);
+}
+
+.nav4 .i4:hover::after {
+  height: 100px;
+  width: 100px;
+}
+.nav4 .navtext {
+  height: auto;
+  width: 62%;
+  margin-top: 4%;
+  background-color: transparent;
+  font-family: "baloo 2";
+
+}
+
+.navtext h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color:red;
+
+}
+/*//============================================================================================*/
+
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer1 {
+  height: 400px;
+  width: 25%;
+  background-color: black;
+  padding: 4% 0 0 5%;
+}
+.footer1 p {
+  color: gray;
+  padding: 7px;
+}
+
+.footer1 i {
+  height: 32px;
+  width: 12%;
+  font-size: 14px;
+  color: white;
+  margin: 0 2% 0 3%;
+  text-align: center;
+  line-height: 20px;
+}
+.footer1 .e {
+  font-size: 36px;
+  padding: 0 12px 0 12px;
+  background-color: aquamarine;
+  color: white;
+}
+
+.footer h2 {
+  letter-spacing: 3px;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 2%;
+}
+.footer h2 span {
+  font-weight: bold;
+  font-size: 22px;
+}
+.footer2 ul {
+  padding-top: 6px;
+}
+.footer2 {
+  height: 400px;
+  width: 25%;
+  background-color: black;
+  padding: 5% 0 0 5%;
+}
+.footer2 ul li {
+  color: gray;
+  list-style: none;
+  letter-spacing: 1px;
+}
+.footer2 ul li:hover {
+  color: aquamarine;
+  transition: 1s;
+}
+
+.footer3 {
+  height: 400px;
+  width: 25%;
+  background-color: black;
+  padding: 5% 0 0 4%;
+}
+.footer4 {
+  height: 400px;
+  width: 25%;
+  background-color: transparent;
+  padding: 4.3% 0 1% 3%;
+  display: grid;
+  grid-template-rows: 70px 80px;
+  grid-template-columns: repeat(2, 65px) 65px;
+  grid-gap: 5px;
+}
+.post {
+  background-color: transparent;
+  grid-column: 1/-1;
+  padding-top: 5%;
+}
+/*.post1 {
+  background: url(C:/Users/hp/Desktop/Elite Web/images/t1.jpg);
+  background-size: 100% 100%;
+}
+.post2 {
+  background: url(C:/Users/hp/Desktop/Elite Web/images/t2.jpg);
+  background-size: 100% 100%;
+}
+.post3 {
+  background: url(../image/t3.jpg);
+  background-size: 100% 100%;
+}
+.post4 {
+  background: url(../image/t4.jpg);
+  background-size: 100% 100%;
+}
+.post5 {
+  background: url(../image/t1.jpg);
+  background-size: 100% 100%;
+}
+.post6 {
+  background: url(../image/t2.jpg);
+  background-size: 100% 100%;
+}
+.post7 {
+  background: url(../image/t3.jpg);
+  background-size: 100% 100%;
+}
+.post8 {
+  background: url(../image/t2.jpg);
+  background-size: 100% 100%;
+}
+.post9 {
+  background: url(../image/t4.jpg);
+  background-size: 100% 100%;
+}*/
+/* input */
+
+/*//===========================================================================================*/
+.input {
+  height: auto;
+  width: 100%;
+  background-color: black;
+  display: flex;
+ flex-wrap: wrap;
+}
+.inputtext {
+  height: inherit;
+  width: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.inputtext h3 {
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+}
+.inputtype {
+  height: inherit;
+  width: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.inputtype input {
+  height: 45px;
+  width: 60%;
+  background-color: black;
+  border: 1px solid gray;
+  outline: none;
+  color: white;
+  padding-left: 2%;
+  letter-spacing: 3px;
+}
+.inputtype button a {
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  background-color: aquamarine;
+}
+.inputtype button {
+  height: 50px;
+  width: 15%;
+  color: black;
+  background-color: aquamarine;
+  font-size: 20px;
+}
+.inputtype button a:hover {
+  background-color: aquamarine;
+  color: balck;
+  color: black;
+  transition: 2s;
+}
+.inputb {
+  height: 130px;
+  width: 80%;
+  border: 2px solid white;
+}
+
+
+
